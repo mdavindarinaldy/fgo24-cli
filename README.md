@@ -34,3 +34,24 @@ mkdir "latihan5.txt"
 dir
 rmdir "latihan4.txt"
 ```
+
+# New Case
+Memindahkan lagu ke folder sesuai dengan artisnya
+
+# Without Loop
+```cmd
+cd lagu
+mkdir Blackpink
+mkdir Evanescence
+mkdir "Linkin Park"
+move Blackpink*.mp3 .\Blackpink
+move Evanescence*.mp3 .\Evanescence
+move "Linkin Park*.mp3" .\"Linkin Park"
+```
+
+# With Loop
+```cmd
+cd lagu
+for %i in (Blackpink Evanescence "Linkin Park") do mkdir %i
+for %i in (Blackpink Evanescence "Linkin Park") do move %i*.mp3 .\%i
+```
