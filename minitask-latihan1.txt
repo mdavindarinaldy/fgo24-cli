@@ -1,0 +1,14 @@
+1. mkdir "Latihan CLI Dasar"
+2. cd "Latihan CLI Dasar"
+3. type nul>latihan1.txt
+4. type nul>latihan2.txt
+5. type nul>latihan3.txt
+6. type nul>latihan4.txt
+7. type nul>latihan5.txt
+8. dir
+9. del "latihan4.txt"
+10. mkdir "latihan4.txt"
+11. del "latihan5.txt"
+12. mkdir "latihan5.txt"
+13. dir
+14. rmdir "latihan4.txt"
